@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+}
+
+
+body{     
+    font-size: 1rem;
+}
+
+.conteudo{
+    margin: auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #2b2a2a;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.topo input{
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid black;
+    outline: none; 
+    
+}
+
+.topo button{
+    width: 45px;
+}
+
+.topo button:hover{
+    background: greenyellow;
+}
+
+#listaTarefas{
+    padding: 0;
+    
+
+}
